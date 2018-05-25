@@ -1,0 +1,11 @@
+<h1>Contact</h1>
+
+<div>
+{{input type="email" value=emailAddress2 placeholder="email"}}
+{{input value=textMessage placeholder="message"}}
+<button class="btn btn-primary" {{action 'saveMessage'}} disabled={{isDisabled2}}>Send Message</button> 
+</div>
+
+{{#if successMessage}}
+  <div class="alert alert-success">{{successMessage}}</div>
+{{/if}}

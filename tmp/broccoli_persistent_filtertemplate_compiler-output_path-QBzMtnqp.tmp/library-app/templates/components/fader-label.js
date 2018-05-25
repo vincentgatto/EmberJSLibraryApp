@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"IEw78qlR","block":"{\"symbols\":[\"&default\"],\"statements\":[[13,1]],\"hasEval\":false}","meta":{"moduleName":"library-app/templates/components/fader-label.hbs"}});
